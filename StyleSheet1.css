@@ -1,0 +1,106 @@
+﻿*{
+	box-sizing: border-box;
+}
+
+a:link {
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+a: visited {
+	color: plum;
+}
+
+a: hover {
+	color: royalblue;
+}
+
+body {
+	background-color: lightblue;
+	height: 100px;
+}
+
+	/*   ********************************************************************** -->
+	<!-- Header: Top of the page												-->
+	<!--	This should stay always on sight even when the user scrolls up/down -->
+	<!-- ********************************************************************** */
+
+header {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.Header_Background{ 
+	height: 200px; 
+	background-color: lightblue;
+	margin: 0px;
+}
+
+#headerPages ul {
+	background-color: powderblue;
+	border: 3px solid darkblue;
+	text-align: center;
+	margin: 0px;
+}
+
+#headerPages li {
+	display: inline-block;
+	font-weight: 700; /* 700 = bold */
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 5px 100px;
+	letter-spacing: 0.20em;
+	border: 1px solid coral;
+	white-space: nowrap; /* Keeps the phrase together */
+}
+
+	/*   ********************************************************************** -->
+	<!-- Game Projects: Shows what games I have been a part of					-->
+	<!--	This should be in rows, showing 3 games								-->
+	<!--	Each game comes with an image and name								-->
+	<!--	If user clicks on image, takes them to that game's page				-->
+	<!-- ********************************************************************** */
+
+.GameProjects {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: auto;
+	padding: 10px 10px;
+	z-index: 0;
+	margin: 250px 110px;
+	margin-bottom: 100px;
+	border: 3px solid yellow;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+}
+
+
+.GameProjects h3 {
+	opacity: 1.0;
+}
+
+.Footer_Clouds{
+	position: fixed;
+	z-index: -10;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+}
+
+.Footer_Grass{
+	position: fixed;
+	z-index: -1;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	height: 300px;
+}
