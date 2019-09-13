@@ -16,13 +16,13 @@ a: hover {
 }
 
 body {
-	background-color: lightblue;
-	height: 100px;
+	background-color: rgb(204, 230, 255)
 }
 
 	/*   ********************************************************************** -->
 	<!-- Header: Top of the page												-->
 	<!--	This should stay always on sight even when the user scrolls up/down -->
+	<!--    Vivi picture scrolls up, but headerPages remain seen                -->
 	<!-- ********************************************************************** */
 
 header {
@@ -35,28 +35,37 @@ header {
 	width: 100%;
 }
 
-.Header_Background{ 
+.Header_Background { 
 	height: 200px; 
-	background-color: lightblue;
+	background-color: rgb(179, 230, 255);
 	margin: 0px;
 }
 
-#headerPages ul {
-	background-color: powderblue;
-	border: 3px solid darkblue;
+ #headerPages ul {
+	background-color: rgb(255, 255, 204);
+	border: 3px solid rgb(255, 191, 128);
 	text-align: center;
 	margin: 0px;
 }
 
 #headerPages li {
 	display: inline-block;
-	font-weight: 700; /* 700 = bold */
+	font-weight: 700; 
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 18px;
 	padding: 5px 100px;
 	letter-spacing: 0.20em;
-	border: 1px solid coral;
-	white-space: nowrap; /* Keeps the phrase together */
+	white-space: nowrap; 
+}
+
+
+button {
+	background-color: lightpink;
+	font-size: 18px;
+	padding: 5px 100px;
+	letter-spacing: 0.20em;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 	/*   ********************************************************************** -->
@@ -79,7 +88,6 @@ header {
 	background-color: white;
 	opacity: 0.5;
 }
-
 
 .GameProjects h3 {
 	opacity: 1.0;
