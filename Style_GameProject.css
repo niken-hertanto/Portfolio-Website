@@ -26,7 +26,7 @@ body {
 	<!-- ********************************************************************** */
 
 header {
-	position: fixed;
+	
 	z-index: 100;
 	top: 0px;
 	left: 0px;
@@ -35,10 +35,26 @@ header {
 	width: 100%;
 }
 
+
 .Header_Background { 
-	height: 200px; 
+	height: 150px; 
 	background-color: rgb(179, 230, 255);
 	margin: 0px;
+}
+
+#SocialMedia_Links ul {
+	text-align: center;
+	margin: 0px;
+	background-color: rgb(179, 230, 255);
+}
+
+#SocialMedia_Links li {
+	display: inline-block;
+	font-weight: 500; 
+	font-size: 14px;
+	padding: 5px 20px;
+	letter-spacing: 0.20em;
+	white-space: nowrap; 
 }
 
  #headerPages ul {
@@ -58,14 +74,20 @@ header {
 	white-space: nowrap; 
 }
 
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+}
 
-button {
-	background-color: lightpink;
-	font-size: 18px;
-	padding: 5px 100px;
-	letter-spacing: 0.20em;
-	font-weight: 700;
-	text-transform: uppercase;
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 502px;
 }
 
 	/*   ********************************************************************** -->
@@ -81,7 +103,7 @@ button {
 	grid-template-rows: auto;
 	padding: 10px 10px;
 	z-index: 0;
-	margin: 250px 110px;
+	margin: 50px 110px;
 	margin-bottom: 100px;
 	border: 3px solid yellow;
 	text-align: center;
@@ -91,6 +113,16 @@ button {
 
 .GameProjects h3 {
 	opacity: 1.0;
+}
+
+.topOfPage {
+	position: fixed;
+	top: 30px;
+	width: 100%;
+}
+
+.topOfPage + .content {
+  padding-top: 602px;
 }
 
 .Footer_Clouds{
@@ -112,3 +144,27 @@ button {
 	width: 100%;
 	height: 300px;
 }
+
+/*   ********************************************************************** -->
+	<!-- Game Projects Information: Gives detail for every Project  		-->
+	<!-- ******************************************************************* */
+
+.GameInformation {
+	display: center;
+	padding: 10px 10px;
+	z-index: 0;
+	margin: 50px 110px;
+	margin-bottom: 100px;
+	border: 3px solid yellow;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+}
+
+#GameName {
+	font-size: 30px;
+	text-transform: uppercase;
+	display: left;
+	letter-spacing: 0.15em;
+}
+
