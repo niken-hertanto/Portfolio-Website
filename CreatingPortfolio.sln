@@ -5,8 +5,14 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{33FCD8CB-5720-4174-83A8-736810A4D0BD}"
 	ProjectSection(SolutionItems) = preProject
+		BirdCannon.html = BirdCannon.html
 		GameProjects.html = GameProjects.html
 		JourneyThroughMemories.html = JourneyThroughMemories.html
+		OceansInfinity.html = OceansInfinity.html
+		Style_allGameProjects.css = Style_allGameProjects.css
+		Style_GameProject.css = Style_GameProject.css
+		TeaBomb.html = TeaBomb.html
+		WhatWentWrong.html = WhatWentWrong.html
 	EndProjectSection
 EndProject
 Global
