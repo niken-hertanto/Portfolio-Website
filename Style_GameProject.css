@@ -1,4 +1,6 @@
-﻿*{
+﻿
+
+*{
 	box-sizing: border-box;
 }
 
@@ -34,7 +36,6 @@ header {
 	text-align: center;
 	width: 100%;
 }
-
 
 .Header_Background { 
 	height: 150px; 
@@ -211,5 +212,11 @@ header {
 
 p {
 	letter-spacing: 0.05em;
+}
+
+.Pictures {
+	position: relative;
+	z-index: 10;
+	opacity: .8;
 }
 
