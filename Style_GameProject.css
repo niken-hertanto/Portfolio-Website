@@ -162,18 +162,23 @@ header {
 
 #TopPictures {
 	float: right;
-	padding: 20px 25px;
+	padding: 20px 20px;
+	text-align: center;
+	font-size: 12px;
+	font-family: "Palatino Linotype", sans-serif;
+	letter-spacing: 0.05em;
 }
  
 #GameName {
-	font-size: 30px;
+	font-size: 35px;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 5px;
-	font-family: "Noto Sans", sans-serif;
-	font-weight: 800;
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight: 600;
+	font-stretch: condensed;
 	}
 	
 
@@ -181,40 +186,82 @@ header {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 	padding-left: 30px;
-	font-family: "Optima", sans-serif;
+	font-family: "Georgia", sans-serif;
 }
 
 #Date {
 	font-size: 12px;
 	padding-left: 30px;
-	font-family: "Optima", sans-serif;
+	font-family: "Georgia", sans-serif;
 }
 
 #About {
 	width: 570px;
 	padding-left: 30px;
 	font-size: 15px;
-	font-family: "Optima", sans-serif;
+	font-family: "Palatino Linotype", sans-serif;
 	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
 }
 
 #Contributions {
 	width: 570px;
 	padding-left: 30px;
 	font-size: 15px;
-	font-family: "Optima", sans-serif;
+	font-family: "Palatino Linotype", sans-serif;
 	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
 }
 
 #Teammates {
 	width: 570px;
 	padding-left: 30px;
 	font-size: 15px;
-	font-family: "Optima", sans-serif;
+	font-family: "Palatino Linotype", sans-serif;
 	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
 }
 
-p {
+#SocialMediaAndWebsite {
+	width: 570px;
+	padding-left: 30px;
+	font-size: 15px;
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight: 300;
 	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
+}
+
+#Trailer {
+	width: 570px;
+	padding-left: 30px;
+	font-size: 15px;
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
+}
+
+#Screenshots {
+	width: 570px;
+	padding-left: 30px;
+	font-size: 15px;
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
+}
+
+#DesignsAndPrototypes {
+	width: 570px;
+	padding-left: 30px;
+	font-size: 15px;
+	font-family: "Palatino Linotype", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+	word-spacing: 1.5px;
 }
 
